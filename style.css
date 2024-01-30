@@ -12,7 +12,7 @@
                background-color: white;
    }
    
-   .task {padding:10px;}
+   .Newtask {padding:10px;}
 
    /*-----------------------------
              LOGO HEADER
@@ -86,6 +86,9 @@
 
    .circle_check {color: green;
                   border: 3px solid green;}
+
+   .circle_cross {color: red;
+                  border: 3px solid red;}
    /*-----------------------------
       CHECK/CROSS - CIRCLE
    ----------------------------*/    
@@ -112,10 +115,10 @@
           TAG multi-color
    ----------------------------*/    
    .tag {padding: 4px;
-           border: 2px solid ;
-           border-radius: 10px;
-           font-family: "Roboto", sans-serif;
-           font-style: normal
+         border: 2px solid ;
+         border-radius: 10px;
+         font-family: "Roboto", sans-serif;
+         font-style: normal
    }
         
 
