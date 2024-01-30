@@ -5,7 +5,6 @@
    
    main {background-color: #C9C9C9;
          padding: 20px;
-     
    }
    
    .container {max-width: 1200px;
@@ -13,7 +12,7 @@
                background-color: white;
    }
    
-   .Newtask {padding:10px;}
+   .task {padding:10px;}
 
    /*-----------------------------
              LOGO HEADER
@@ -52,28 +51,25 @@
       margin-right: 3px;
       border:none;
       
-  }
+   }
   
   .button1 {
       background-color: #47adf1;
       color: white;
       
-  }
+   }
   
   .button2 {
       background-color: white;
       color: 	#C9C9C9;
       border:2px solid	#C9C9C9;
-  }
+   }
   
 
    /*-----------------------------
              BUTTONS
    ----------------------------*/    
   
-
-        
-
    
    /*-----------------------------
       CHECK/CROSS - CIRCLE
@@ -85,7 +81,8 @@
             border-radius: 100%;
             text-align: center;
             line-height: middle;
-      }
+            margin: 10px;
+   }
 
    .circle_check {color: green;
                   border: 3px solid green;}
@@ -114,14 +111,31 @@
    /*-----------------------------
           TAG multi-color
    ----------------------------*/    
-    .tag {padding: 4px;
+   .tag {padding: 4px;
            border: 2px solid ;
-           border-radius: 10px;}
+           border-radius: 10px;
+           font-family: "Roboto", sans-serif;
+           font-style: normal
+   }
         
-           
-    .tag_blue {background-color: #47adf1;
+
+
+   .tag_blue {background-color: #47adf1;
                 color: white;
-   
+   }
+   .tag_purple {background-color: purple;
+               color: white;
+   }
+   .tag_aquamarine {background-color: aquamarine;
+                    color: white;}
+   .tag_orange {background-color: orange;
+               color: white;
+   }
+   .tag_pink {background-color: pink;
+               color: white;
+   }
+   .tag_green {background-color: green;
+               color: white;
    }
 
    /*-----------------------------
