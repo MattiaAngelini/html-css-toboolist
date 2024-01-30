@@ -2,6 +2,19 @@
    margin: 0;
    box-sizing: border-box;}
 
+   
+   main {background-color: grey;
+      
+   }
+   
+   .container { 
+                  max-width: 1200px;
+                  margin: auto;
+                  background-color: white;
+                  
+   }
+   
+
    /*-----------------------------
              LOGO HEADER
    ----------------------------*/         
@@ -25,7 +38,40 @@
              LOGO HEADER
    ----------------------------*/         
    
+   /*-----------------------------
+             BUTTONS
+   ----------------------------*/         
+   
+   section {margin-top: 50px;}
+  
+  
+   .button_style {
+      border-radius: 10%;
+      height: 30px;
+      width: 120px;
+      margin-right: 3px;
+      border-radius: 10px; 
+      border:none;
+      
+  }
+  
+  .button1 {
+      background-color: blue;
+      color: white;
+      
+  }
+  
+  .button2 {
+      background-color: white;
+      color: 	#C9C9C9;
+      border:2px solid	#C9C9C9;
+  }
+  
 
+   /*-----------------------------
+             BUTTONS
+   ----------------------------*/    
+  
 
-
-
+   .raw {margin:10px 0 10px 0;}
+        
